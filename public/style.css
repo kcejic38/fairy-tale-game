@@ -1,0 +1,25 @@
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#main-scene {
+  height: 100%;
+  margin: auto;
+  display: block
+}
+
+#will-o-the-wisp {
+  position: fixed;
+  object-fit: none;
+  object-position: 50% 47%;
+  width: 100px;
+  height: 100px; 
+}
+
+#fairy {
+  position: fixed;
+  height: 300px;
+}
