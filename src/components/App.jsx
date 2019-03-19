@@ -1,5 +1,3 @@
-
-// 55-40-sitting, 26-80-sneaky-chasing-lunch, 43-64-front, 26-80-back
 import Player from '../components/Player.jsx'
 import React from 'react';
 
@@ -105,28 +103,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
-// import Spritesheet from 'react-responsive-spritesheet'
-
-{/* <Spritesheet
-        image={`node_modules/react-responsive-spritesheet/assets/images/myImages/fairy-front.png`}
-        widthFrame={1600}
-        heightFrame={1448}
-        steps={46}
-        fps={12}
-        direction={`forward`}
-        timeout={1800}
-        autoplay={false}
-        // loop={true}
-        // startAt={10}
-        // endAt={30}
-        getInstance={spritesheet => {
-          this.spriteInstance = spritesheet;
-        }}
-
-        onClick={spritesheet => {
-          spritesheet.play();
-        }}
-
-      /> */}
